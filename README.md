@@ -30,3 +30,28 @@ Quando o Node.js executa essa linha, ele pega o número 200 e traduz automaticam
 
 * MOZILLA DEVELOPER NETWORK (MDN). Mensagens HTTP. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Messages. Acesso em: 15 out. 2026.
 
+### Métodos
+
+* GET
+#### Solicita a representação de um recurso específico e retorna apenas dados. 
+
+* POST
+#### Cria/Posta algo novo
+
+* PUT
+#### Pega os dados colocados  e substitui inteiramente o recurso que já lá estava, caso seja colocado mais de uma vez haverá dados duplicados.
+
+* DELETE
+#### Remove um recurso específico.
+
+* PATCH
+#### Diferente do PUT (que substitui tudo), o PATCH modifica apenas os campos específicos que forem enviados.
+
+#### **Métodos seguros** (GET) apenas leem dados sem alterar o servidor, enquanto **métodos idempotentes**  (PUT, DELETE) podem alterar o servidor, mas garantem o mesmo resultado final mesmo se repetidos. Todos os métodos seguros também são idempotentes porém nem todos são seguros.
+
+
+* MOZILLA DEVELOPER NETWORK (MDN). Métodos de requisição HTTP. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Reference/Methods. Acesso em: 15 out. 2026.
+
+* MOZILLA DEVELOPER NETWORK (MDN). Seguro. In: Glossário do MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-BR/docs/Glossary/Safe. Acesso em: 15 out. 2026.
+
+
