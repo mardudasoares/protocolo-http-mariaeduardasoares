@@ -148,7 +148,7 @@ MOZILLA DEVELOPER NETWORK (MDN). Cabeçalhos HTTP. Disponível em: https://devel
 
 * MARKDOWN LIVE PREVIEW. Disponível em: https://markdownlivepreview.com/. Acesso em: 14 out. 2026.
 
-####Assistente de IA (Gemini) Data de uso: 15 out. 2026.
+#### Assistente de IA (Gemini) Data de uso: 15 out. 2026.
 Finalidade: ajuda no entendimento nos conceitos do MDN além de ajuda nas rotas que tive dificuldades na execução
 Arquivos impactados: src/routes/routes.js; README.me
 
